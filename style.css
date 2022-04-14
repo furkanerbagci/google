@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #5f6368;
+    font-family: 'Arial Narrow', Arial, sans-serif
+}
+
+a:not(a.main_item):hover{
+    text-decoration: underline;
+}
+p{
+    color: #70757a;
+    font-family: 'Arial Narrow', Arial, sans-serif
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    
+    
+
+}
+
+.navbar_items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+    
+}
+
+.navbar_item{
+    padding-right: 20px;
+    align-items: center;  
+    
+}
+
+.navbar_item img{
+    color: #70757a;
+}
+
+.profil_pic{
+    border-radius: 50%;
+    width: 30px;
+}
+
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 80vh;
+    padding-top: 120px;
+}
+
+.main_items p{
+    display: inline-block;
+}
+
+a.main_item:hover{
+    border: 0.1px solid rgb(207, 207, 207);
+    box-sizing: content-box;
+}
+
+
+.main_content{
+    
+    list-style: none;
+    
+    
+}
+.main_content li{
+    text-align: center;
+
+}
+
+
+.input{
+    width: 30vw;
+    height: 30px;
+}
+
+.input_content{
+
+    padding: 6px 25px;
+    border-radius: 40px;
+    border: 0.1px solid rgb(207, 207, 207);
+}
+
+.input_content img{
+    position: relative;
+    top: 7px;
+    left: 10px;
+    
+}
+
+.material-icons-outlined{
+    color: #5f6368;
+    position: relative;
+    top: 7px;
+       
+}
+
+#keyboard{
+    left: 3px; 
+
+}
+
+#search{
+    left: 0px; 
+}
+a.main_item{
+    display: inline-block;
+    background-color: #f2f2f2 ;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.main_items{
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: #f2f2f2 ;
+    position: fixed; 
+    bottom: 0px;
+    width: 100vw;
+}
+
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    border-bottom:0.1px solid rgb(207, 207, 207);
+
+}
+
+.footer_item a{
+    padding-right: 10px;
+    color: #70757a;
+
+}
+
+input{
+    border: 0px solid;
+    outline: none;
+}
